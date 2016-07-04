@@ -1,1 +1,0 @@
-[Documentation](https://github.com/nettitude/PoshC2/wiki/Documentation)
