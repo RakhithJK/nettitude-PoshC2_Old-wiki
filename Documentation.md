@@ -48,3 +48,5 @@ Here we provide a command that simply reports the IP address (if any) of the pro
 ### Get-System / Get-System-withProxy
 
 The Get-System command is the similar to the the Metasploit/Meterpreter command, it tries to escalate privilege of the current user via 
+
+
