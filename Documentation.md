@@ -43,6 +43,8 @@ With this command we have a simple but very detailed report of the executed comm
 
 ### Get-Proxy
 
-Here we provide a command that simply reports the external IP address of the host that the implant is running on.
+Here we provide a command that simply reports the IP address (if any) of the proxy server that the host implant is running on.
 
-### Get-System
+### Get-System / Get-System-withProxy
+
+The Get-System command is the similar to the the Metasploit/Meterpreter command, it tries to escalate privilege of the current user via 
