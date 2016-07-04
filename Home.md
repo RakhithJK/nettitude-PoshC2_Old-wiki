@@ -1,4 +1,4 @@
-[[images/C2-server-1.PNG]]
+[[images/PoshC2.png]]
 
 # Welcome to the PoshC2 wiki
 
