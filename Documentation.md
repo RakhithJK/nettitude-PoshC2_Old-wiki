@@ -14,6 +14,7 @@ The aim of this documentation is to we hope to give the user some fairly detaile
 Lets get into it and start at the top
 
 ## Implant Features
+[[images/help-1.PNG]]
 
 ### Beacon <time in seconds>
 
