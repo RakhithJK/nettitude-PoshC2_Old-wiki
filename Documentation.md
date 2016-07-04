@@ -82,7 +82,6 @@ The List-Modules command allows the user to view the PowerShell modules that res
 We have provided quiet a few PowerShell modules that most of you will recognise such as Mimikatz and PowerUp, and some you will not have seen before.
 One of the nice features of Posh C2 is the ability for the user to create his own PowerShell modules and use them within Posh C2. Simply copy the modules you want into the modules folder and you'll be able to load them into a running implant with the 'LoadModule' command, which is discussed further on in this wiki.
 
-
 [[images/listmodules.PNG]]
 
 ### ModulesLoaded
@@ -92,4 +91,16 @@ The  ModulesLoaded command show the user which PowerShell modules he has loaded 
 ### LoadModule [modulename]
 
 As mentioned above, the LoadModules command allows a user to upload any PowerShell module into the memory space of the current implant, nothing touches disk, so we can evade anti-virus.
+
+[[images/load-module-modulesloaded.PNG]]
+
+[[images/load-module-modulesloaded-1.PNG]]
+
+So in the examples above we query the modules folder for its contents, then we load the module PowerUp.ps1 into the implants memory space and then run the command 'Invoke-AllChecks' which is a part of the PowerUp module.
+
+### StartAnotherImplant / StartAnotherImplantWithProxy
+
+The StartAnotherImplant / StartAnotherImplantWithProxy commands are what they say really, to provide the user with another implant in case of issues with the initial implant.
+
+### CreateProxyPayload
 
