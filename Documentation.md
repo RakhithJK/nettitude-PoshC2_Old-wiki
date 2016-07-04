@@ -46,13 +46,17 @@ With this command we have a simple but very detailed report of the executed comm
 
 Here we provide a command that simply reports the IP address (if any) of the proxy server that the host implant is running on.
 
+### Unzip [source file] [destination file]
+
+Fairly straight forward command, it provides the user the ability to 'unzip a file', given the source and destination.
+
 ### Get-System / Get-System-withProxy
 
 The Get-System / Get-System-WithProxy command is the similar to the the Metasploit/Meterpreter command, it tries to escalate privilege of the current user by starting a new service as admin via the sc command. This command assumes that the user is a member of the local administrators group.
 
 The alternate command Get-System-WithProxy is essentially the same but this time the implant is executed using the hosts proxy server settings.
 
-### Unzip [source file] [destination file]
+
 
 
 
