@@ -16,13 +16,13 @@ Lets get into it and start at the top
 ## Implant Features
 [[images/help-1.PNG]]
 
-### Beacon <time in seconds>
+### Beacon [time in seconds]
 
 This is a simple command, but has a very significant place in Posh C2. It provides the user with the ability to change the 'beacon' time of the implant. Beacon time is the amount of time between each call home the implant makes.
 
 Setting the beacon time allows the user to achive a certain amount of 'stealth' to for instance bypass or disguise the traffic against monitoring solutions. In addition to the user setting, there is a 10% jitter applied, this creates a random +/- time.
 
-### Start-Sleep <time in seconds>
+### Start-Sleep [time in seconds]
 
 Start-Sleep is a similar function to the Beacon command, however in this case it tells the implant to go to sleep, or as we like to refer to it as 'turtle mode'.
 
@@ -48,6 +48,12 @@ Here we provide a command that simply reports the IP address (if any) of the pro
 
 ### Get-System / Get-System-withProxy
 
-The Get-System command is the similar to the the Metasploit/Meterpreter command, it tries to escalate privilege of the current user via 
+The Get-System / Get-System-WithProxy command is the similar to the the Metasploit/Meterpreter command, it tries to escalate privilege of the current user by starting a new service as admin via the sc command. This command assumes that the user is a member of the local administrators group.
+
+The alternate command Get-System-WithProxy is essentially the same but this time the implant is executed using the hosts proxy server settings.
+
+### Unzip [source file] [destination file]
+
+
 
 
