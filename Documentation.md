@@ -1,6 +1,6 @@
 # MODULES AND BUILTIN COMMANDS
 
-The aim of this documentation is to we hope to give the user some fairly detailed descriptions and example commands to help with the use of Posh C2. The modules and built in commands are arranged loosely into categories;
+The aim of this documentation is to give the user some fairly detailed descriptions and example commands to help with the use of Posh C2. The modules and built in commands are arranged loosely into categories;
 
 * Implant Features
 * Privilege Escalation
