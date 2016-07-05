@@ -160,8 +160,10 @@ in the PoshC2 directory. One of the nice features of PoshC2 are that the user ca
 PowerShell module written by them or anyone else into the ‘Modules’ folder and use those directly
 within PoshC2 using the ListModules and LoadModules  commands the user can see whats
 available and load new modules into the current implant.
+
 For example we may want to use a module from PowerSploit that’s not included, lets say ‘Invoke‐
 NinjaCopy.ps1’
+
 The user can simply copy the Invoke‐NinjaCopy.ps1 file into the Modules folder and then use
 LoadModule Invoke‐NinjaCopy.ps1 on the Implant‐Handler to add the new module to the implant.
 
@@ -177,5 +179,5 @@ could be typed into a normal PowerShell session can be entered into the Implant�
 
 This is the time for you to go and play with the tool and checkout its functionality and capabilities.
 To follow this article we will have some follow up articles that will take ‘Deep Dives’ into the inner
-workings, detailed descriptions and example usage of the built‐in functionalitly and modules.
+workings, detailed descriptions and example usage of the built‐in functionality and modules.
 Enjoy.
