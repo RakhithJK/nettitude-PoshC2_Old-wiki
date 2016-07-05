@@ -5,7 +5,7 @@ The aim of this documentation is to give the user some fairly detailed descripti
 * [Implant Features](https://github.com/nettitude/PoshC2/wiki/Implant-Features)
 * [Privilege Escalation](https://github.com/nettitude/PoshC2/wiki/Privilege-Escalation)
 * [File Management](https://github.com/nettitude/PoshC2/wiki/File-Management)
-* 
+* [Persistence](https://github.com/nettitude/PoshC2/wiki/Persistence)
 * Network Tasks / Lateral Movement
 * Credentials / Tokens / Local Hashes
 * Credentials / Domain Controller
