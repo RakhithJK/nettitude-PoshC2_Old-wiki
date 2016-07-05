@@ -86,3 +86,37 @@ established remote shells or implants.
 
 [[images/implant.PNG]]
 
+## Infecting a System
+
+Above we’ve seen what happens when a connection is made to the C2 server from one of our
+implants. Lets take a look at how this happens, PoshC2 has four auto generated payloads
+
+1. payload.bat, a batch file which runs powershell.exe with an encoded command, nothing new one
+of the easiest ways to get a remote connection.
+2. macro.txt, a text file that contains the code to paste into a Word document macro which will
+produce a remote connection.
+3. a java applet payload.
+4. a payload that looks just like a shortcut, that can be embedded into an email or document – credit
+here to Alexey [http://onready.me](http://onready.me)
+
+There is also a further two quick infection methods given in the PoshC2 PowerShell session start‐
+up, a simple one‐liner and  method created by @SubTee
+
+[[images/payloads-1.PNG]]
+
+[[images/subtee-implant.png]]
+
+Using either of the  quick infect methods will get you going  on a test system  or if you have local
+access, which will allow you to play with the functionality of PoshC2, so copy and paste the
+command from the C2 server windows into a victim Windows host.
+In the screenshots below, we can see an active implant that has connected to the  PoshC2‐Server and
+notification of a new implant is show in the ‘Implant‐Handler’
+
+In the screenshots below, we can see an active implant that has connected to the  PoSH‐C2‐Server and
+notification of a new implant is show in the ‘Implant‐Handler’
+
+[[images/implant-1.PNG]]
+
+[[images/implant.PNG]]
+
+
