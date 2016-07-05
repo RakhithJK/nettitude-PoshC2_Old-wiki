@@ -1,18 +1,3 @@
-# MODULES AND BUILTIN COMMANDS
-
-The aim of this documentation is to give the user some fairly detailed descriptions and example commands to help with the use of Posh C2. The modules and built in commands are arranged loosely into categories;
-
-* Implant Features
-* Privilege Escalation
-* File Management
-* Persistence
-* Network Tasks / Lateral Movement
-* Credentials / Tokens / Local Hashes
-* Credentials / Domain Controller
-* Useful Modules
-
-Lets get into it and start at the top
-
 ## Implant Features
 [[images/help-1.PNG]]
 
@@ -76,9 +61,9 @@ This command returns the value of the implants Pid, this is also shown in both t
 
 [[images/implant-pid.PNG]]
 
-### List-Modules
+### ListModules
 
-The List-Modules command allows the user to view the PowerShell modules that reside in the modules folder, within the Posh C2 folder tree.
+The ListModules command allows the user to view the PowerShell modules that reside in the modules folder, within the Posh C2 folder tree.
 We have provided quiet a few PowerShell modules that most of you will recognise such as Mimikatz and PowerUp, and some you will not have seen before.
 One of the nice features of Posh C2 is the ability for the user to create his own PowerShell modules and use them within Posh C2. Simply copy the modules you want into the modules folder and you'll be able to load them into a running implant with the 'LoadModule' command, which is discussed further on in this wiki.
 
