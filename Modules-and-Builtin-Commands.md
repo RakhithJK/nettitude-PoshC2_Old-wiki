@@ -7,6 +7,6 @@ The aim of this documentation is to give the user some fairly detailed descripti
 * [File Management](https://github.com/nettitude/PoshC2/wiki/File-Management)
 * [Persistence](https://github.com/nettitude/PoshC2/wiki/Persistence)
 * [Network Tasks / Lateral Movement](https://github.com/nettitude/PoshC2/wiki/Network-Tasks---Lateral-Movement)
-* Credentials / Tokens / Local Hashes
+* [Credentials / Tokens /.Local Hashes](https://github.com/nettitude/PoshC2/wiki/Credentials---Tokens---Local-Hashes)
 * Credentials / Domain Controller
 * Useful Modules
