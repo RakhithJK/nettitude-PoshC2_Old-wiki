@@ -10,7 +10,7 @@ The Invoke-AllChecks command is exactly the same as the PowerUp module written b
 
 ### Invoke-MS16-032 / MS16-032-ProxyPayload
 
-Here we have taken the great module created by @fuzzysec and re-worked it slighty but it essentially exploits the recent MS16-032 issue.
+Here we have taken the original exploit code from ExploitDB and re-worked it slightly but it essentially it exploits the recent MS16-032 issue via Matt Graebers Invoke-ReflectivePEInjection module
 
 ### Get-GPPPassword
 
