@@ -4,7 +4,7 @@
 
 ### Install-Persistence / Remove-Persistence
 
-The Install-Persistence and Remove-Persistence commands create a 'Userland' persistence through the use of the 'Run' registry keys.
+The Install-Persistence and Remove-Persistence commands create a 'Userland' persistence through the use of the 'Run' registry keys. These DO NOT require elevated privileges.
 
 `Install-Persistence`
 
@@ -18,6 +18,11 @@ One point to note with the output in the C2-Sever PowerShell window, you will no
 
 ###  Install-ServiceLevel-Persistence | Remove-ServiceLevel-Persistence
 
+The Install-ServiceLevel-Persistence is the equivalent SYSTEM level persistence to the above. Elevated privileges ARE required.
+
+`Install-ServiceLevel-Persistence`
+
+[[images/install-persistence-3.PNG]]
 
 
 ###  Install-ServiceLevel-PersistenceWithProxy | Remove-ServiceLevel-Persistence
