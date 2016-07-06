@@ -91,6 +91,8 @@ The StartAnotherImplant / StartAnotherImplantWithProxy commands are what they sa
 
 The CreateProxyPayload command was created to allow in implant to traverse a an authenticated proxy when the implant is running under the SYSTEM account. Under normal circumstances the SYSTEM account can't provide credentials to a proxy server and pass through, so we created the CreateProxyPayload command to allow the attacker to provide a set of valid proxy credentials within the payload and thus traverses any authenticated proxy server. We would use this technique when attempting lateral movement also.
 
+`CreateProxyPayload -user <dom\user> -pass <pass> -proxyurl <http://10.0.0.1:8080>`
+
 ### Get-MSHotfix
 
 Again a fairly self explanatory command, it fetches the list of Microsoft Hotfixes that are installed on the host system.
