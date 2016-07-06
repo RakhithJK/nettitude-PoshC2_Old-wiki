@@ -10,10 +10,10 @@ The Invoke-AllChecks command is exactly the same as the PowerUp module written b
 
 ### Invoke-MS16-032 / MS16-032-ProxyPayload
 
-Here we have taken the original exploit code from ExploitDB and re-worked it slightly but it essentially it exploits the recent MS16-032 issue via Matt Graebers Invoke-ReflectivePEInjection module.
+Here we have taken the original exploit code from ExploitDB and re-worked it slightly but it essentially it exploits the recent MS16-032 issue via Joe Bialek's Invoke-ReflectivePEInjection module.
+The MS016-032-ProxyPayload version creates allows the payload to traverse an authenticated proxy server.
 
 ### Get-GPPPassword
 
 This is simply the great script written by Chris Campbell (@obscuresec)
 Run the script by entering the Get-GPPPassword command.
-
