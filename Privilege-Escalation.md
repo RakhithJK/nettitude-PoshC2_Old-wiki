@@ -17,3 +17,19 @@ The MS016-032-ProxyPayload version creates allows the payload to traverse an aut
 
 This is simply the great script written by Chris Campbell (@obscuresec)
 Run the script by entering the Get-GPPPassword command.
+
+### Further Options
+
+As you can see in the screenshot above there are a couple of command strings there that aren't associated with a script or piece of exploit code, this is because the exploits are actually found by using the PowerShell command line to identify the issues.
+
+So taking the final two examples;
+
+`Get-Content 'C:\ProgramData\McAfee\Common Framework\Sitelist.xml`
+
+Here we are aware of the McAfee issue and we are simply searching for the vulnerable file.
+
+`Dir -Recurse | Select-String -pattern 'password='`
+
+Again we are using the builtin PowerShell cmdlets to provide us with the goods.
+
+As mentioned in other pages of this wiki, any command PowerShell commands can be used in PoshC2
