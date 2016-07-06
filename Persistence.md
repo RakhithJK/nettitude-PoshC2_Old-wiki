@@ -29,6 +29,8 @@ The Install-ServiceLevel-Persistence is the equivalent SYSTEM level persistence 
 
 The Install-ServiceLevel-PersistenceWithProxy is fundamentally the same as Install-ServiceLevel-Persistence, however the command requires a payload with proxy credentials, which first needs to be created with the 'Create-ProxyPayload' command, the command will determine whether or not a proxy payload has been created previously and warn the user of the case.
 
+`Install-ServiceLevel-PersistenceWithProxy`
+
 [[images/proxy-persist.PNG]]
 
 [[images/proxy-persist-1.PNG]]
