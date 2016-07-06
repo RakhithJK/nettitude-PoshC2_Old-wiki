@@ -18,7 +18,7 @@ One point to note with the output in the C2-Sever PowerShell window, you will no
 
 ###  Install-ServiceLevel-Persistence | Remove-ServiceLevel-Persistence
 
-The Install-ServiceLevel-Persistence is the equivalent SYSTEM level persistence to the above. Elevated privileges ARE required.
+The Install-ServiceLevel-Persistence is the equivalent SYSTEM level persistence to the above. Elevated privileges ARE required, as can be seen in the screen shot.
 
 `Install-ServiceLevel-Persistence`
 
@@ -26,3 +26,13 @@ The Install-ServiceLevel-Persistence is the equivalent SYSTEM level persistence 
 
 
 ###  Install-ServiceLevel-PersistenceWithProxy | Remove-ServiceLevel-Persistence
+
+The Install-ServiceLevel-PersistenceWithProxy is fundamentally the same as Install-ServiceLevel-Persistence, however the command requires a payload with proxy credentials, which first needs to be created with the 'Create-ProxyPayload' command, the command will determine whether or not a proxy payload has been created previously and warn the user of the case.
+
+[[images/proxy-persist.PNG]]
+
+[[images/proxy-persist-1.PNG]]
+
+
+
+
