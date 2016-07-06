@@ -7,11 +7,15 @@ This is a simple command, but has a very significant place in Posh C2. It provid
 
 Setting the beacon time allows the user to achive a certain amount of 'stealth' to for instance bypass or disguise the traffic against monitoring solutions. In addition to the user setting, there is a 10% jitter applied, this creates a random +/- time.
 
+`Beacon 15`
+
 ### Start-Sleep [time in seconds]
 
 Start-Sleep is a similar function to the Beacon command, however in this case it tells the implant to go to sleep, or as we like to refer to it as 'turtle mode'.
 
 This allows the user to be even more stealthy, for example a user may want the implant to stop calling home for a long period of time, maybe overnight.
+
+`Start-Sleep 5000`
 
 ### Kill-Implant
 
@@ -38,6 +42,8 @@ Here we provide a command that simply reports the IP address (if any) of the pro
 ### Unzip [source file] [destination file]
 
 Fairly straight forward command, it provides the user the ability to 'unzip a file', given the source and destination.
+
+`Unzip c:\Temp\zipped-exploit.zip C:\Temp\Exploit`
 
 ### Get-System / Get-System-withProxy
 
