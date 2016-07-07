@@ -52,8 +52,12 @@ Here we have a script that scans a given network range over port 445, used to de
 
 ### Brute-LocAdmin
 
-The Brute-LocAdmin script will attempt a brute force password attack against the local administrator account, with the username 'Administrator'
+The Brute-LocAdmin command will attempt a brute force password attack against the local administrator account, with the username 'Administrator'
 
 `Brute-LocAdmin`
+
+Also the command will accept a -username parameter, this is required as network administrators often disable the account named 'Administrator' and disable and use a non-standard user account name for the local administrator.
+
+`Brute-LocAdmin -username john`
 
 ### 
