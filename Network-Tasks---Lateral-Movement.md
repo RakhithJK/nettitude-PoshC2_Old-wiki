@@ -42,5 +42,5 @@ If you know or have a favourite command then use it just as you would normally.
 
 `Invoke-ShareFinder -hostlist hosts.txt`
 
-Searches a list of hosts for any network shares that the current user of the victim system has access to.
+This script written by @harmj0y, searches a list of hosts for any network shares that the current user of the victim system has access to.
 
