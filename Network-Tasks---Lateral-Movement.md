@@ -28,3 +28,19 @@ To do this you will need to edit the script - Brute-AD.ps1, which can be found i
 [[images/passwords.PNG]]
 
 Also remember, if the domain has a eight wrong password lockout threshold only the first seven passwords will be tried, so the order of the passwords will make a difference.
+
+### Net View / Net User / whoami / Net localgroup
+
+Again these are examples of the ability of the user to use the built-in commands available on any Windows system.
+If you know or have a favourite command then use it just as you would normally.
+
+`net view`
+
+`net user`
+
+### Invoke-ShareFinder
+
+`Invoke-ShareFinder -hostlist hosts.txt`
+
+Searches a list of hosts for any network shares that the current user of the victim system has access to.
+
