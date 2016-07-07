@@ -20,7 +20,7 @@ This command can be used to validate a given username and password pair against 
 
 This is a module that queries Active Directory for usernames, determines the wrong password lockout threshold and carries out a brute force attack against the usernames with a list of common passwords, taking into account of the lockout threshold. The obvious requirements of this module are that the victim must be a member of a domain.
 
-[[images/brute-ad.PNG]]
+[[images/brute-ad-attack.PNG]]
 
  At this moment there is no way to provide a custom password list, however this will be added in the future, it is possible to edit the list of passwords that can be tried.
 To do this you will need to edit the script - Brute-AD.ps1, which can be found in the Modules folder, add any different passwords in the following line;
