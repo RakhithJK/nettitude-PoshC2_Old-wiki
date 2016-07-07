@@ -44,3 +44,16 @@ If you know or have a favourite command then use it just as you would normally.
 
 This script written by @harmj0y, searches a list of hosts for any network shares that the current user of the victim system has access to.
 
+### Invoke-Hostscan
+
+Here we have a script that scans a given network range over port 445, used to determine alive Windows hosts.
+
+`Invoke-Hostscan -IPRangeCIDR 172.16.0.0/24`
+
+### Brute-LocAdmin
+
+The Brute-LocAdmin script will attempt a brute force password attack against the local administrator account, with the username 'Administrator'
+
+`Brute-LocAdmin`
+
+### 
