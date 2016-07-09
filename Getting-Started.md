@@ -20,7 +20,7 @@ There is an optional requirement for PoshC2 which enables it to create a custom 
 This requires the Java Development Kit to be installed, this can be downloaded from the Oracle
 website, the link to the download at the time this document was written is below;
 
-[Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk8‐downloads‐2133151.html)
+[Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 Download and install the JDK as per the directions from Oracle.
 
