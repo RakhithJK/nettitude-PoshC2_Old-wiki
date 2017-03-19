@@ -1,4 +1,5 @@
 [[images/main_posh.png]]
+[[images/ImplantHandler.png]]
 
 # Welcome to the PoshC2 wiki page
 
