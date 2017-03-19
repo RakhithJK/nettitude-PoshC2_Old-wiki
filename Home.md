@@ -8,3 +8,7 @@ PoshC2 is a proxy aware C2 framework written completely in PowerShell to aid pen
 # Quick Install 
 
 powershell -exec bypass -c "IEX (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/nettitude/PoshC2/master/C2-Installer.ps1')"
+
+# Team Server
+
+
