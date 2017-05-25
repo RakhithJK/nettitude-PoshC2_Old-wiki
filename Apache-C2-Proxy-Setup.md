@@ -1,6 +1,6 @@
-a2enmod rewrite 
-a2enmod proxy
-a2enmod proxy_http
+    # a2enmod rewrite 
+    # a2enmod proxy
+    # a2enmod proxy_http
 
 
     <VirtualHost *:80>
