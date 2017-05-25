@@ -1,8 +1,7 @@
-# PoshC2 Apache2 Proxy Configuration
-# a2enmod rewrite 
-# a2enmod proxy
-# a2enmod proxy_http
-
+a2enmod rewrite 
+a2enmod proxy
+a2enmod proxy_http
+<code>
 <VirtualHost *:80>
 	RewriteEngine On
 	RewriteRule ^/connect http://<IP ADDRESS>/connect [NC,P]
@@ -45,3 +44,4 @@
 		SSLCertificateKeyFile /etc/ssl/private/ssl-cert-snakeoil.key
 	</VirtualHost>
 </IfModule>
+</code>
