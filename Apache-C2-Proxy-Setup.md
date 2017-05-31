@@ -1,7 +1,7 @@
     # a2enmod rewrite 
     # a2enmod proxy
     # a2enmod proxy_http
-
+    # a2enmod headers
 
     <VirtualHost *:80>
 		RewriteEngine On
@@ -26,6 +26,9 @@
 			RewriteEngine On
 			SSLProxyEngine On
 			SSLProxyCheckPeerCN Off
+			SSLProxyVerify none
+			SSLProxyCheckPeerName off
+			SSLProxyCheckPeerExpire off
 			RewriteRule ^/connect https://<IP ADDRESS>/connect [NC,P]
 			RewriteRule ^/daisy https://<IP ADDRESS>/daisy [NC,P]
 			RewriteRule ^/images/static/content/(.*) https://<IP ADDRESS>/images/static/content/$1 [NC,P]
