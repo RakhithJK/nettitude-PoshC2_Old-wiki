@@ -13,8 +13,8 @@
 		RewriteRule ^/images/prints/(.*) http://<IP ADDRESS>/images/prints/$1 [NC,P]
 		RewriteRule ^/wordpress/site/(.*) http://<IP ADDRESS>/wordpress/site/$1 [NC,P]
 		RewriteRule ^/true/images/77/(.*) http://<IP ADDRESS>/true/images/77/$1 [NC,P]
-		RewriteRule ^/holidngs/images/(.*) http://<IP ADDRESS>/holidngs/images/$1 [NC,P]
-		RewriteRule ^/steam(.*) http://<IP ADDRESS>/holidngs/images/$1 [NC,P]
+		RewriteRule ^/holdings/office/images/(.*) http://<IP ADDRESS>/holdings/office/images/$1 [NC,P]
+		RewriteRule ^/steam(.*) http://<IP ADDRESS>/steam/$1 [NC,P]
 		ServerAdmin webmaster@localhost
 		DocumentRoot /var/www/html
 		ErrorLog ${APACHE_LOG_DIR}/error.log
@@ -37,8 +37,8 @@
 			RewriteRule ^/images/prints/(.*) https://<IP ADDRESS>/images/prints/$1 [NC,P]
 			RewriteRule ^/wordpress/site/(.*) https://<IP ADDRESS>/wordpress/site/$1 [NC,P]
 			RewriteRule ^/true/images/77/(.*) https://<IP ADDRESS>/true/images/77/$1 [NC,P]
-			RewriteRule ^/holidngs/images/(.*) https://<IP ADDRESS>/holidngs/images/$1 [NC,P]
-			RewriteRule ^/steam(.*) https://<IP ADDRESS>/holidngs/images/$1 [NC,P]
+			RewriteRule ^/holdings/office/images/(.*) https://<IP ADDRESS>/holdings/office/images/$1 [NC,P]
+			RewriteRule ^/steam(.*) https://<IP ADDRESS>/steam/$1 [NC,P]
 			ServerAdmin webmaster@localhost
 			DocumentRoot /var/www/html
 			ErrorLog ${APACHE_LOG_DIR}/error.log
